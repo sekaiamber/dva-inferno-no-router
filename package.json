@@ -1,0 +1,59 @@
+{
+  "name": "dva-inferno-no-router",
+  "version": "1.0.0",
+  "description": "Inferno bindings for dva, no router.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "npm run clean && babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dva",
+    "alibaba",
+    "inferno",
+    "redux",
+    "redux-saga",
+    "elm",
+    "framework",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekaiamber/dva-inferno-no-router.git"
+  },
+  "author": "sekaiamber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sekaiamber/dva-inferno-no-router/issues"
+  },
+  "homepage": "https://github.com/sekaiamber/dva-inferno-no-router#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "dva-core": "^1.4.0",
+    "global": "^4.3.2",
+    "inferno-redux": "^7.1.1",
+    "invariant": "^2.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "redux": "^4.0.1"
+  },
+  "peerDependencies": {
+    "inferno": "^7.1.1"
+  },
+  "files": [
+    "lib",
+    "src",
+    "dist",
+    "fetch.js",
+    "index.js",
+    "saga.js",
+    "*.d.ts"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-plugin-inferno": "^6.0.4"
+  }
+}
